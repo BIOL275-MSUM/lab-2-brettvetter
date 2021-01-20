@@ -1,6 +1,6 @@
 ---
 title: "Lab 2: Introduction to RStudio"
-author: "___"
+author: "Brett Vetter"
 date: "`r format(Sys.Date())`"
 output: github_document
 ---
@@ -13,8 +13,10 @@ Welcome to my Lab 2 repository for Quantitative Biology BIOL 275 at MSUM.
 
 The objectives of this lab are:
 
-- ___
-- ___
+- Learn how to navigate rstudio
+- Learn how to create vectors 
+- Perform functions using vectors
+- Create assignment using the assignment operator 
 
 ## Repository contents
 

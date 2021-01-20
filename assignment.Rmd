@@ -19,25 +19,42 @@ The final section of the Lab 2 instructions asks me to imagine I have collected 
 
 First, I combine the values into a vector using the `c()` function, assign it to a variable named `x`, and print `x`
 
-```{r vector}
+``` x<-c(6.05,4.89,3.32,4.93,5.25,5.04,4.91,2.84,5.60,5.34)
+> x
+ [1] 6.05 4.89 3.32 4.93 5.25 5.04 4.91 2.84 5.60 5.34
 
 ```
 
 Here I calculate the sample size, mean, median, and standard deviation:
 
-```{r stats}
+> mean(x)
+[1] 4.817
+> median(x)
+[1] 4.985
+> sd(x)
+[1] 0.9899725
+> n<-length(x)
+> n
+[1] 10
 
 ```
 
 The standard error of the mean can be calculated by dividing the standard deviation by the square root of the sample size:
 
-```{r se}
+> sem<-sd(x)/sqrt(n)
+> sem
+[1] 0.3130568
 
 ```
 
 And finally, I can see the 95% confidence interval ranges from a minimum of ___ to a maximum of ___
 
-```{r mean}
+> mean(x)+1.96*sem
+[1] 5.430591
+> mean(x)-1.96*sem
+[1] 4.203409
+> c(mean(x)+1.96*sem,mean(x)-1.96*sem)
+[1] 5.430591 4.203409
 
 ```
 
