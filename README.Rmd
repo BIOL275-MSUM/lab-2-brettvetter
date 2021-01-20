@@ -16,7 +16,7 @@ The objectives of this lab are:
 - Learn how to navigate rstudio
 - Learn how to create vectors 
 - Perform functions using vectors
-- Create assignment using the assignment operator 
+- Create assignments using the assignment operator 
 
 ## Repository contents
 
