@@ -1,7 +1,7 @@
 Lab 2 Assignment
 ================
-\_\_\_
-2021-01-20
+Brett Vetter
+2021-01-21
 
 ## Instructions
 
@@ -157,3 +157,15 @@ ggplot(chick_data, aes(x = diet, y = weight, color = diet, fill = diet)) +
 ```
 
 ![](assignment_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+``` r
+sessioninfo::session_info
+```
+
+    ## function (pkgs = NULL, include_base = FALSE) 
+    ## {
+    ##     structure(list(platform = platform_info(), packages = package_info(pkgs, 
+    ##         include_base = include_base)), class = "session_info")
+    ## }
+    ## <bytecode: 0x00000000218727e8>
+    ## <environment: namespace:sessioninfo>
